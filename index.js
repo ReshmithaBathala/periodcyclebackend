@@ -12,15 +12,74 @@ app.use(bodyParser.json());
 const symptomsData = [
   {
     name: "Mood",
-    subSymptoms: ["Mood Swings", "Irritability", "Anxiety", "Sadness"],
+    subSymptoms: [
+      "Mood Swings",
+      "Irritability",
+      "Anxiety",
+      "Sadness",
+      "Anger",
+      "Emotional Sensitivity",
+    ],
   },
   {
     name: "Digestive System",
-    subSymptoms: ["Bloating", "Indigestion", "Constipation"],
+    subSymptoms: [
+      "Bloating",
+      "Indigestion",
+      "Constipation",
+      "Diarrhea",
+      "Nausea",
+      "Cravings",
+      "Loss of Appetite",
+    ],
   },
   {
     name: "Breast Tenderness",
-    subSymptoms: ["Tenderness", "Pain"],
+    subSymptoms: ["Tenderness", "Pain", "Swelling", "Nipple Sensitivity"],
+  },
+  {
+    name: "Pain",
+    subSymptoms: [
+      "Cramps",
+      "Headache",
+      "Lower Back Pain",
+      "Joint Pain",
+      "Pelvic Pressure",
+    ],
+  },
+  {
+    name: "Skin",
+    subSymptoms: ["Acne", "Oily Skin", "Dry Skin", "Itchiness"],
+  },
+  {
+    name: "Energy Levels",
+    subSymptoms: ["Fatigue", "Lethargy", "Restlessness", "Insomnia"],
+  },
+  {
+    name: "Neurological",
+    subSymptoms: [
+      "Brain Fog",
+      "Dizziness",
+      "Light Sensitivity",
+      "Sensitivity to Sound",
+    ],
+  },
+  {
+    name: "Appetite Changes",
+    subSymptoms: [
+      "Increased Hunger",
+      "Sweet Cravings",
+      "Salty Cravings",
+      "Food Aversions",
+    ],
+  },
+  {
+    name: "Emotional Health",
+    subSymptoms: ["Tearfulness", "Low Self-Esteem", "Overthinking", "Panic"],
+  },
+  {
+    name: "Other",
+    subSymptoms: ["Breakouts", "Swollen Limbs", "Hot Flashes", "Night Sweats"],
   },
 ];
 
